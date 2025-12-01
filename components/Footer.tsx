@@ -1,0 +1,101 @@
+import { Instagram, Facebook, Mail } from "lucide-react";
+import React, { useState } from 'react';
+export function Footer() {
+  return (
+    <footer className="bg-neutral-900 text-white py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 bg-neutral-700 rounded-full flex items-center justify-center">
+                <span className="text-neutral-400 text-xs">LOGO</span>
+              </div>
+              <h3 className="tracking-[0.2em]">CHARME NA CHAPADA</h3>
+            </div>
+            <p className="text-neutral-400 text-sm leading-relaxed">
+              Moda artesanal feita à mão com elegância e dedicação.
+            </p>
+          </div>
+          
+          <div>
+            <h4 className="tracking-[0.2em] text-sm mb-6">ATENDIMENTO</h4>
+            <ul className="space-y-3">
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Contato
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Envios
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Trocas e Devoluções
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="tracking-[0.2em] text-sm mb-6">EMPRESA</h4>
+            <ul className="space-y-3">
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Sobre Nós
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Lojas
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Trabalhe Conosco
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="tracking-[0.2em] text-sm mb-6">NEWSLETTER</h4>
+            <p className="text-neutral-400 text-sm mb-4">
+              Receba novidades e ofertas exclusivas
+            </p>
+            <div className="flex gap-2 mb-6">
+              <input 
+                type="email" 
+                placeholder="Seu e-mail"
+                className="bg-neutral-800 border border-neutral-700 px-4 py-2 flex-1 text-sm focus:outline-none focus:border-neutral-500"
+              />
+              <button className="bg-white text-neutral-900 px-4 py-2 hover:bg-neutral-100 transition-colors">
+                <Mail size={18} />
+              </button>
+            </div>
+            <div className="flex gap-4">
+              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+                <Facebook size={20} />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="border-t border-neutral-800 pt-8 text-center">
+          <p className="text-neutral-500 text-sm">
+            © 2025 Charme na Chapada. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
