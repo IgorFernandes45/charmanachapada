@@ -32,13 +32,7 @@ export function About() {
             </div>
           </div>
           
-          <div className="order-1 lg:order-2">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1761076605434-6bb40eb91334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYW5kbWFkZSUyMHNld2luZyUyMGZhYnJpY3xlbnwxfHx8fDE3NjQ2MTQ4NjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Trabalho Artesanal"
-              className="w-full h-[600px] object-cover rounded-sm"
-            />
-          </div>
+        
         </div>
 
         {/* Valores */}
