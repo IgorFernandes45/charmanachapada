@@ -17,20 +17,19 @@ export function Location() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Mapa */}
           <div className="relative h-[400px] lg:h-[500px] bg-neutral-100 rounded-sm overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15718.123456789!2d-41.123456!3d-12.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA3JzI0LjQiUyA0McKwMDcnMjQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Charme na Chapada"
-            />
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1692.0770557749534!2d-47.51814863973201!3d-14.133551469354028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1764685969872!5m2!1spt-BR!2sbr" 
+           width="600" 
+           height="450" 
+           style={{ border: 0 }}
+           allowFullScreen
+           loading="lazy" 
+           referrerPolicy="no-referrer-when-downgrade"
+           title="Localização Charme na Chapada">
+           </iframe>
             <div className="absolute inset-0 bg-neutral-900/10 pointer-events-none" />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
               <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm text-neutral-700">
-                📍 Substitua com seu endereço no Google Maps
+                📍 Av. Ary Valadão Filho - Centro, Alto Paraíso de Goiás - GO, 73770-000
               </div>
             </div>
           </div>
@@ -66,7 +65,7 @@ export function Location() {
                     Telefone
                   </h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    (00) 00000-0000<br />
+                    (62) 9968755-5542<br />
                     WhatsApp disponível
                   </p>
                   <p className="text-neutral-500 text-sm mt-2 italic">

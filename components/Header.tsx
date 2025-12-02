@@ -9,10 +9,14 @@ export function Header({ onNavigateToCatalog }: HeaderProps) {
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-neutral-100">
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
         <div className="flex items-center gap-4 md:gap-8">
-          {/* Espaço para Logo */}
+          
           <div className="flex items-center gap-2 md:gap-3">
             <div className="w-8 h-8 md:w-10 md:h-10 bg-neutral-200 rounded-full flex items-center justify-center">
-              <span className="text-neutral-500 text-[10px] md:text-xs">LOGO</span>
+              <img
+                  src="/images/Page 1.webp"
+                  alt="Logo"
+                  className="w-full h-full object-cover rounded-full"
+                />
             </div>
             <h1 className="tracking-[0.15em] md:tracking-[0.2em] text-neutral-900 text-xs md:text-base">CHARME NA CHAPADA</h1>
           </div>

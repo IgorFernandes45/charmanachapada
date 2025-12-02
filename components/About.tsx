@@ -22,14 +22,13 @@ export function About() {
               transcendem tendências e se tornam atemporais.
             </p>
             
-            {/* Espaço para Logo da Marca */}
-            <div className="border-2 border-dashed border-neutral-300 rounded-lg p-8 flex items-center justify-center bg-neutral-50">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-neutral-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-                  <span className="text-neutral-500">LOGO</span>
-                </div>
-                <p className="text-sm text-neutral-500">Espaço para sua logomarca</p>
-              </div>
+            
+            <div className="border-2 border-dashed border-neutral-300 rounded-lg overflow-hidden bg-neutral-50">
+              <img
+                src="/images/Page 1.webp"
+                alt="Logo"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           

@@ -8,7 +8,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-neutral-700 rounded-full flex items-center justify-center">
-                <span className="text-neutral-400 text-xs">LOGO</span>
+                <img
+                src="/images/Page 1.webp"
+                alt="Logo"
+                className="w-full h-full object-cover"
+              />
               </div>
               <h3 className="tracking-[0.2em]">CHARME NA CHAPADA</h3>
             </div>
@@ -25,16 +29,7 @@ export function Footer() {
                   Contato
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  Envios
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  Trocas e Devoluções
-                </a>
-              </li>
+             
               <li>
                 <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
                   FAQ
