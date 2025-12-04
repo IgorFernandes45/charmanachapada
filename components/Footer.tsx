@@ -25,63 +25,17 @@ export function Footer() {
             <h4 className="tracking-[0.2em] text-sm mb-6">ATENDIMENTO</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                <a href="https://wa.me/5562996875542" target="_blank" className="text-neutral-400 hover:text-white transition-colors text-sm">
                   Contato
                 </a>
               </li>
              
               <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                <a href="mailto:charmenachapada@icloud.com" target="_blank" className="text-neutral-400 hover:text-white transition-colors text-sm">
                   FAQ
                 </a>
               </li>
             </ul>
-          </div>
-          
-          <div>
-            <h4 className="tracking-[0.2em] text-sm mb-6">EMPRESA</h4>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  Sobre Nós
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  Lojas
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  Trabalhe Conosco
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="tracking-[0.2em] text-sm mb-6">NEWSLETTER</h4>
-            <p className="text-neutral-400 text-sm mb-4">
-              Receba novidades e ofertas exclusivas
-            </p>
-            <div className="flex gap-2 mb-6">
-              <input 
-                type="email" 
-                placeholder="Seu e-mail"
-                className="bg-neutral-800 border border-neutral-700 px-4 py-2 flex-1 text-sm focus:outline-none focus:border-neutral-500"
-              />
-              <button className="bg-white text-neutral-900 px-4 py-2 hover:bg-neutral-100 transition-colors">
-                <Mail size={18} />
-              </button>
-            </div>
-            <div className="flex gap-4">
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
-                <Facebook size={20} />
-              </a>
-            </div>
           </div>
         </div>
         

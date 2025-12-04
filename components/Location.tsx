@@ -46,13 +46,11 @@ export function Location() {
                     Endereço
                   </h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    Rua Exemplo, 123<br />
-                    Centro - Chapada<br />
-                    CEP: 00000-000
+                    Av. Ary Valadão Filho<br />
+                    Centro - Alto Paraíso<br />
+                    CEP: 73770-000
                   </p>
-                  <p className="text-neutral-500 text-sm mt-2 italic">
-                    * Adicione seu endereço real aqui
-                  </p>
+                  
                 </div>
               </div>
 
@@ -68,9 +66,7 @@ export function Location() {
                     (62) 9968755-5542<br />
                     WhatsApp disponível
                   </p>
-                  <p className="text-neutral-500 text-sm mt-2 italic">
-                    * Adicione seu telefone aqui
-                  </p>
+                  
                 </div>
               </div>
 
@@ -83,11 +79,9 @@ export function Location() {
                     E-mail
                   </h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    contato@charmenachapada.com.br
+                    charmenachapada@icloud.com
                   </p>
-                  <p className="text-neutral-500 text-sm mt-2 italic">
-                    * Adicione seu e-mail aqui
-                  </p>
+                  
                 </div>
               </div>
 
@@ -100,13 +94,11 @@ export function Location() {
                     Horário de Atendimento
                   </h3>
                   <p className="text-neutral-600 leading-relaxed">
-                    Segunda a Sexta: 9h às 18h<br />
-                    Sábado: 9h às 13h<br />
-                    Domingo: Fechado
+                    Segunda a Sexta: 14h às 21h<br />
+                    Sábado e Domingo: 9h às 21h<br />
+                    Quarta: Fechado
                   </p>
-                  <p className="text-neutral-500 text-sm mt-2 italic">
-                    * Ajuste conforme seu horário
-                  </p>
+                  
                 </div>
               </div>
             </div>

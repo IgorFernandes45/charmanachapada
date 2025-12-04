@@ -38,7 +38,7 @@ export function Hero({ onNavigateToCatalog }: HeroProps) {
               
               {/* Títulos menores no celular (sm:text-5xl) e maiores no desktop (lg:text-6xl) */}
               <h2 className="text-3xl sm:text-5xl lg:text-6xl mb-4 tracking-tight font-light drop-shadow-lg">
-                Inverno 2025
+                Ano Novo 2025
               </h2>
               
               <p className="text-sm md:text-lg mb-6 max-w-xl mx-auto opacity-90 drop-shadow">

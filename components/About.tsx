@@ -12,14 +12,16 @@ export function About() {
               Charme na Chapada
             </h2>
             <p className="text-neutral-700 mb-6 leading-relaxed">
-              Cada peça que criamos é única e especial, feita à mão com dedicação e amor pelos detalhes. 
-              Nossa missão é trazer elegância e sofisticação através do trabalho artesanal, valorizando 
-              técnicas tradicionais de costura e a qualidade dos tecidos selecionados.
+              A Charme na Chapada começou como um desejo: trazer para Alto Paraíso roupas que unissem elegância, qualidade e personalidade.
+              Foram meses de pesquisa, estudo e seleção de peças até criar uma curadoria única, baseada em:<br />
+              ✔ modelagem perfeita <br />
+              ✔ acabamento refinado <br />
+              ✔ estilo moderno e atemporal
+
             </p>
             <p className="text-neutral-700 mb-8 leading-relaxed">
-              Acreditamos que a verdadeira moda é aquela que conta uma história, que carrega a essência 
-              de quem a cria. Por isso, cada costura, cada acabamento, é pensado para criar peças que 
-              transcendem tendências e se tornam atemporais.
+              Aqui, cada coleção é escolhida como quem escreve um capítulo novo.
+              Charme na Chapada é a história de um sonho que virou loja — e de uma loja que veste mulheres com verdade.
             </p>
             
             

@@ -8,224 +8,194 @@ interface CatalogPageProps {
 
 const collections = [
   {
-    id: "inverno-2025",
-    name: "Ano Novo 2025",
+    id: "Vestidos",
+    name: "Vestidos",
     description: "Peças aconchegantes e sofisticadas para os dias frios",
     products: [
       {
         id: 1,
-        name: "Casaco Oversized",
-        category: "Casacos",
-        price: "R$ 1.599,00",
-        images: [
-          "/images/Page 5.webp" , "/images/Page 6.webp" 
-        ]
+        name: "Vestido Corda",
+        category: "Vestido",
+        price: "R$ 998,00",
+        description: "**Detalhes do Produto:**\n- Comprimento: Longo\n- Decote: Reto com detalhe franzido\n- Alças: Finas\n- Modelagem: Camadas com caimento fluido\n- Tecido: Leve e confortável\n- Estilo: Casual chic / Boho",
+        images: [ "/images/image00015.jpg","/images/Page 5.webp"]
       },
       {
         id: 2,
-        name: "Blazer Alfaiataria",
-        category: "Blazers",
-        price: "R$ 1.299,00",
-        images: [
-          "/images/Page 7.webp" , "/images/Page 8.webp" , "/images/Page 9.webp"
-        ]
+        name: "Vestido Fluido Bordado",
+        category: "Vestido",
+        price: "R$ 617,00",
+        description: "Vestido fluido bordado, ideal para festas e ocasiões formais.",
+        images: ["/images/image00029.jpg", "/images/image00044.jpg"]
       },
       {
         id: 3,
-        name: "Calça Pantalona",
-        category: "Calças",
-        price: "R$ 679,00",
-        images: [
-          "/images/Page 10.webp" , "/images/Page 11.webp" , "/images/Page 12.webp"
-        ]
+        name: "Vestido Longo Bordado",
+        category: "Vestido",
+        price: "R$ 924,00",
+        description: "Vestido longo bordado, sofisticado e confortável.",
+        images: [ "/images/image00054.webp" , "/images/image00055.webp"]
       },
       {
         id: 4,
-        name: "Vestido Midi Lã",
+        name: "Vestido Peito Renda",
         category: "Vestidos",
-        price: "R$ 899,00",
-        images: [
-          "/images/Page 13.webp" , "/images/Page 14.webp" , "/images/Page 15.webp"
-        ]
-      }
-    ]
-  },
-
-  {
-    id: "elegancia-atemporal",
-    name: "Elegância Atemporal",
-    description: "Peças clássicas que transcendem tendências",
-    products: [
+        price: "R$ 533,00",
+        description: "Vestido com detalhe em renda no peito, perfeito para eventos casuais.",
+        images: ["/images/Page 13.webp", "/images/image00060.jpg"]
+      },
       {
         id: 5,
-        name: "Vestido de Seda Midi",
+        name: "Vestido Fluido Helora",
         category: "Vestidos",
-        price: "R$ 899,00",
-        images: [
-          "/images/Page 16.webp" , "/images/Page 17.webp" , "/images/Page 18.webp"
-        ]
+        price: "R$ 1.077,00",
+        description: "Vestido fluido com caimento leve e sofisticado.",
+        images: ["/images/Page 29.webp", "/images/image00130.jpg", "/images/Page 31.webp"]
       },
       {
         id: 6,
-        name: "Blusa de Seda",
-        category: "Blusas",
-        price: "R$ 549,00",
-        images: [
-          "/images/Page 19.webp" , "/images/Page 20.webp" 
-        ]
+        name: "Vestido Estampado Trail Of",
+        category: "Vestido",
+        price: "R$ 977,00",
+        description: "Vestido estampado com estilo moderno e descontraído.",
+        images: ["/images/Page 26.webp","/images/Page 27.webp", "/images/Page 28.webp"]
       },
       {
         id: 7,
-        name: "Calça Alfaiataria",
-        category: "Calças",
-        price: "R$ 679,00",
-        images: [
-          "/images/Page 21.webp" , "/images/Page 22.webp" , "/images/Page 23.webp","/images/Page 24.webp","/images/Page 25.webp"
-        ]
+        name: "Vestido Babado",
+        category: "Vestidos",
+        price: "R$ 779,90",
+        description: "Vestido com babados delicados, ideal para ocasiões festivas.",
+        images: ["/images/Page 32.webp", "/images/Page 33.webp", "/images/Page 34.webp"]
       },
       {
         id: 8,
-        name: "Blazer Clássico",
-        category: "Blazers",
-        price: "R$ 1.199,00",
-        images: [
-          "/images/Page 26.webp" , "/images/Page 27.webp" , "/images/Page 28.webp"
-        ]
+        name: "Vestido Franja",
+        category: "Vestidos",
+        price: "R$ 972,00",
+        description: "Vestido com franjas elegantes, perfeito para festas.",
+        images: ["/images/image00167.jpg", "/images/Page 36.webp"]
+      },
+      {
+        id: 9,
+        name: "Vestido Novos Recomeços",
+        category: "Vestido",
+        price: "R$ 1.204,00",
+        description: "Vestido vibrante para novos começos e momentos especiais.",
+        images: ["/images/Page 41.webp", "/images/Page 42.webp", "/images/Page 43.webp"]
+      },
+      {
+        id: 10,
+        name: "Vestido Longo Oceano",
+        category: "Vestidos",
+        price: "R$ 1.214,00",
+        description: "Vestido longo inspirado no oceano, elegante e sofisticado.",
+        images: ["/images/Page 44.webp", "/images/image00192.jpg", "/images/Page 46.webp"]
+      },
+      {
+        id: 24,
+        name: "Vestido Classic Shell",
+        category: "Vestidos",
+        price: "R$ 302,00",
+        description: "Vestido longo inspirado no oceano, elegante e sofisticado.",
+        images: ["/images/image00228.jpeg", "/images/image00229.jpeg", "/images/image00235.jpeg"]
+      },
+      {
+        id: 25,
+        name: "Vestido Estampado Sweet Gar",
+        category: "Vestidos",
+        price: "R$ 921,00",
+        description: "Vestido longo inspirado no oceano, elegante e sofisticado.",
+        images: ["/images/image00003.jpg", "/images/image00009.jpg"]
+      },
+      {
+        id: 26,
+        name: "Vestido Marion",
+        category: "Vestidos",
+        price: "R$ 298,00",
+        description: "Vestido longo inspirado no oceano, elegante e sofisticado.",
+        images: ["/images/image00239.jpeg", "/images/Page 54.webp"]
+      },
+      {
+        id: 27,
+        name: "Vestido Solar",
+        category: "Vestidos",
+        price: "R$ 427,90",
+        description: "Vestido longo inspirado no oceano, elegante e sofisticado.",
+        images: [ "/images/Page 61.webp", "/images/Page 62.webp", "/images/Page 63.webp", "/images/Page 64.webp"]
+      }, 
+      {
+        id: 28,
+        name: "Vestido Camadas Mare",
+        category: "Vestidos",
+        price: "R$ 629,00",
+        description: "Vestido longo inspirado no oceano, elegante e sofisticado.",
+        images: [ "/images/Page 65.webp", "/images/Page 66.webp"]
       }
     ]
   },
 
   {
-    id: "festa-luxo",
-    name: "Festa & Luxo",
+    id: "Calças e Cropped",
+    name: "Calças e Cropped",
+    description: "Peças clássicas que transcendem tendências",
+    products: [
+      {
+        id: 18,
+        name: "Calça Patalona Verano",
+        category: "Calça",
+        price: "R$ 899,00",
+        description: "Calça pantalona confortável e elegante para qualquer ocasião.",
+        images: ["/images/image00069.jpg", "/images/image00074.jpg"]
+      },
+      {
+        id: 19,
+        name: "Cropped Verano",
+        category: "Cropped",
+        price: "R$ 327,00",
+        description: "Cropped moderno, ideal para looks casuais e despojados.",
+        images: ["/images/Page 16.webp", "/images/Page 19.webp", "/images/Page 20.webp"]
+      }
+    ]
+  },
+
+  {
+    id: "Conjuntos e Macacão",
+    name: "Conjuntos e Macacão",
     description: "Para ocasiões especiais e momentos inesquecíveis",
     products: [
       {
-        id: 9,
-        name: "Vestido de Festa Longo",
-        category: "Vestidos",
-        price: "R$ 1.899,00",
-        images: [
-          "/images/Page 29.webp" , "/images/Page 30.webp" , "/images/Page 31.webp"
-        ]
-      },
-      {
-        id: 10,
-        name: "Conjunto Sofisticado",
-        category: "Conjuntos",
-        price: "R$ 1.499,00",
-        images: [
-          "/images/Page 32.webp" , "/images/Page 33.webp" , "/images/Page 34.webp"
-        ]
-      },
-      {
-        id: 11,
-        name: "Vestido Cocktail",
-        category: "Vestidos",
-        price: "R$ 1.299,00",
-        images: [
-          "/images/Page 35.webp" , "/images/Page 36.webp" , "/images/Page 37.webp"
-        ]
-      },
-      {
-        id: 12,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 38.webp" , "/images/Page 39.webp" , "/images/Page 40.webp"
-        ]
-      },
-      {
-        id: 13,
-        name: "Casaco de Linho",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 41.webp" , "/images/Page 42.webp" , "/images/Page 43.webp"
-        ]
-      },
-      {
-        id: 14,
-        name: "Casaco",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 44.webp" , "/images/Page 45.webp" , "/images/Page 46.webp"
-        ]
-      },
-      {
-        id: 15,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 47.webp" , "/images/Page 48.webp" , "/images/Page 49.webp"
-        ]
-      },
-      {
-        id: 16,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 50.webp" , "/images/Page 51.webp" 
-        ]
-      },
-      {
-        id: 17,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 52.webp" , "/images/Page 53.webp" , "/images/Page 54.webp" 
-        ]
-      },
-      {
-        id: 18,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 55.webp" , "/images/Page 56.webp" , "/images/Page 57.webp" , "/images/Page 58.webp" 
-        ]
-      }, 
-      {
-        id: 19,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 59.webp" , "/images/Page 60.webp" , "/images/Page 61.webp" , "/images/Page 62.webp" , "/images/Page 63.webp" , "/images/Page 64.webp" 
-        ]
-      },{
         id: 20,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 65.webp" , "/images/Page 66.webp" 
-        ]
+        name: "Conjunto Sea La Vie",
+        category: "Conjunto",
+        price: "R$ 1.045,00",
+        description: "Conjunto elegante para eventos sofisticados.",
+        images: ["/images/image00082.jpg", "/images/image00092.jpg", "/images/image00096.jpg"]
       },
       {
         id: 21,
-        name: "Casaco de Luxo",
-        category: "Casacos",
-        price: "R$ 1.799,00",
-        images: [
-          "/images/Page 67.webp" , "/images/Page 68.webp" 
-        ]
+        name: "Macacão Bordado",
+        category: "Macacão",
+        price: "R$ 842,00",
+        description: "Macacão bordado, ideal para ocasiões formais.",
+        images: ["/images/Page 38.webp", "/images/Page 39.webp", "/images/Page 40.webp"]
       },
       {
         id: 22,
-        name: "Casaco de Luxo",
-        category: "Casacos",
+        name: "Conjunto Karina",
+        category: "Conjunto",
+        price: "R$ 290,00",
+        description: "Conjunto casual e confortável, perfeito para o dia a dia.",
+        images: ["/images/Page 67.webp", "/images/Page 68.webp"]
+      },
+      {
+        id: 23,
+        name: "Conjunto Luisa",
+        category: "Conjunto",
         price: "R$ 1.799,00",
-        images: [
-          "/images/Page 69.webp" , "/images/Page 70.webp" 
-        ]
+        description: "Conjunto sofisticado em cores vibrantes para momentos especiais.",
+        images: ["/images/Page 69.webp", "/images/Page 70.webp"]
       }
-
     ]
   }
 ];
@@ -251,13 +221,6 @@ export function CatalogPage({ onBack }: CatalogPageProps) {
           </button>
 
           <div className="flex items-center gap-2 md:gap-3">
-            <div className="W-8 h-8 md:w-10 md:h-10 bg-neutral-200 rounded-full flex items-center justify-center">
-              <img
-                src="/images/Page 1.webp"
-                alt="Logo"
-                className="w-full h-full object-cover rounded-full"
-              />
-            </div>
             <h1 className="tracking-[0.2em] text-neutral-900 text-xs md:text-base">
               CHARME NA CHAPADA
             </h1>

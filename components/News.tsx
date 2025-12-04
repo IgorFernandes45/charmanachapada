@@ -5,27 +5,27 @@ import { CornerDownRight } from "lucide-react";
 const newsItems = [
   {
     id: 1,
-    title: "Coleção de Inverno 2025",
-    description: "Descubra as novas peças feitas à mão que chegaram para aquecer seu inverno com muito estilo.",
-    fullText: "Aqui você pode colocar um texto maior, explicando sobre a coleção, bastidores, materiais, etc.",
+    title: "Coleção de Verão 2026",
+    description: "Descubra as novas peças feitas à mão que chegaram para o verão com muito estilo.",
+    fullText: "Conheça as novidades feitas à mão que acabaram de chegar — perfeitas para um verão cheio de estilo.",
     image: "/images/Page 5.webp",
-    date: "Dezembro 2024"
+    date: "Dezembro 2025"
   },
   {
     id: 2,
     title: "Tecidos Exclusivos",
     description: "Selecionamos tecidos nobres e de alta qualidade para criar peças que unem conforto e elegância.",
-    fullText: "Texto grande sobre tecidos exclusivos, processo de escolha, fornecedores, qualidade e diferenciais.",
+    fullText: "Criamos cada peça com materiais refinados e acabamento impecável, garantindo beleza, conforto e sofisticação em cada detalhe.",
     image: "https://images.unsplash.com/photo-1760328715296-9714daa8a737",
-    date: "Novembro 2024"
+    date: "Novembro 2025"
   },
   {
     id: 3,
     title: "Processo Artesanal",
     description: "Conheça o cuidado e a dedicação por trás de cada costura em nosso atelier.",
-    fullText: "Um texto maior sobre o processo artesanal, o tempo de produção, técnicas, histórias e detalhes.",
-    image: "https://images.unsplash.com/photo-1654707636750-ab67a11b21b7",
-    date: "Novembro 2024"
+    fullText: "Descubra a precisão e o carinho aplicados em cada costura criada em nosso atelier.",
+    image: "images/image00268.jpeg",
+    date: "Novembro 2025"
   }
 ];
 
