@@ -17,15 +17,13 @@ export function Location() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Mapa */}
           <div className="relative h-[400px] lg:h-[500px] bg-neutral-100 rounded-sm overflow-hidden">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1692.0770557749534!2d-47.51814863973201!3d-14.133551469354028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1764685969872!5m2!1spt-BR!2sbr" 
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5097.133119626185!2d-47.515969659183305!3d-14.136432860572093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93457f7d9727192b%3A0xb73733498421fdc3!2sCHARME%20NA%20CHAPADA!5e0!3m2!1spt-BR!2sbr!4v1764934849965!5m2!1spt-BR!2sbr" 
            width="600" 
            height="450" 
            style={{ border: 0 }}
-           allowFullScreen
+           allowFullScreen 
            loading="lazy" 
-           referrerPolicy="no-referrer-when-downgrade"
-           title="Localização Charme na Chapada">
-           </iframe>
+           referrerPolicy="no-referrer-when-downgrade"></iframe>
             <div className="absolute inset-0 bg-neutral-900/10 pointer-events-none" />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
               <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm text-neutral-700">

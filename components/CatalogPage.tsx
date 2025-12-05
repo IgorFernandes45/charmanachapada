@@ -10,7 +10,7 @@ const collections = [
   {
     id: "Vestidos",
     name: "Vestidos",
-    description: "Peças aconchegantes e sofisticadas para os dias frios",
+    description: "Curadoria de peças premium com caimento perfeito.",
     products: [
       {
         id: 1,
@@ -192,7 +192,7 @@ const collections = [
         id: 23,
         name: "Conjunto Luisa",
         category: "Conjunto",
-        price: "R$ 1.799,00",
+        price: "R$ 330,00",
         description: "Conjunto sofisticado em cores vibrantes para momentos especiais.",
         images: ["/images/Page 69.webp", "/images/Page 70.webp"]
       }
@@ -240,7 +240,9 @@ export function CatalogPage({ onBack }: CatalogPageProps) {
             Nosso Catálogo
           </h2>
           <p className="text-neutral-600 max-w-2xl mx-auto mb-8 md:mb-12 text-sm md:text-base px-4">
-            Cada peça é cuidadosamente confeccionada à mão em nosso atelier, com tecidos nobres e acabamento impecável
+            Peças de alto padrão e curadoria exclusiva.
+           Cada item é escolhido com cuidado, pensando em modelagem impecável, acabamento perfeito e estilo que 
+           valoriza sua essência.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 md:gap-4">
