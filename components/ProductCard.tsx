@@ -68,7 +68,7 @@ export function ProductCard({
     `Olá! Gostaria de saber mais sobre o produto:\n\n🛍️ *${product.name}*\n💰 *${product.price}*\n\nPode me enviar mais informações?`
   );
 
-  const whatsappLink = `https://wa.me/5561999263702?text=${message}`;
+  const whatsappLink = `https://wa.me/5562996875542?text=${message}`;
 
   // --- 🔥 SAIBA MAIS: FECHA EXPANDIDO PARA NÃO BUGAR ---
   const handleSaibaMais = (e: React.MouseEvent) => {

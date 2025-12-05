@@ -38,11 +38,11 @@ export function Hero({ onNavigateToCatalog }: HeroProps) {
               
               {/* Títulos menores no celular (sm:text-5xl) e maiores no desktop (lg:text-6xl) */}
               <h2 className="text-3xl sm:text-5xl lg:text-6xl mb-4 tracking-tight font-light drop-shadow-lg">
-                Ano Novo 2025
+                Verão 2026
               </h2>
               
               <p className="text-sm md:text-lg mb-6 max-w-xl mx-auto opacity-90 drop-shadow">
-                Peças exclusivas feitas à mão com elegância atemporal e dedicação artesanal.
+                Qualidade premium e modelagem perfeita para realçar sua beleza com leveza e estilo.
               </p>
               
               <button 

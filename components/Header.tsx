@@ -13,7 +13,7 @@ export function Header({ onNavigateToCatalog }: HeaderProps) {
   );
 
   // 🔥 LINK DO WHATSAPP JÁ PREPARADO
-  const whatsappLink = `https://wa.me/5561999263702?text=${message}`;
+  const whatsappLink = `https://wa.me/5562996875542?text=${message}`;
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-neutral-100">
