@@ -6,7 +6,8 @@ import { News } from "./components/News";
 import { Location } from "./components/Location";
 import { Footer } from "./components/Footer";
 import { CatalogPage } from "./components/CatalogPage";
-
+import MetaPixel from "./components/MetaPixel";
+import PixelRouteTracker from "./components/PixelRouteTracker";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<"home" | "catalog">("home");
@@ -18,6 +19,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white">
+      <MetaPixel />
+      <PixelRouteTracker />
       <Header onNavigateToCatalog={() => setCurrentPage("catalog")} />
       <Hero onNavigateToCatalog={() => setCurrentPage("catalog")} />
       <About />
